@@ -1,6 +1,6 @@
-#COSC 2328#
+# COSC 2328
 
-##Web Programming Assignment #1##
+## Web Programming Assignment #1
 
 __Due Date__: See the due date for assignment #1 in Canvas
 
