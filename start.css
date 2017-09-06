@@ -10,7 +10,7 @@ body {
 
 .heading {
       background:#aaa000;
-      color: #fffeee;
+      color: #fffeee; 
       padding: 1%;
       margin: 1% 13% 1% 13%;
       padding: 2%;
@@ -24,7 +24,7 @@ body {
     overflow:auto;
 }
 
-.border {
+.border { 
           margin: 5% 2%;
           border: 2px solid white;
           padding: 5% 2%;
@@ -46,13 +46,13 @@ body {
 	margin:5% 1% 1% 1%;
 	border-top: 1px solid white;
         padding:1%;
-
+        
 }
 /* now change anchor tag colors */
-a:link {
+a:link { 
          color: yellow;
     }
-a:visited {
+a:visited { 
             color:orange;
           }
 a:hover { background:white;
