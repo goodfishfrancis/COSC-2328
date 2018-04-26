@@ -1,0 +1,10 @@
+## Web Programming Assignment #4
+**Due Date:** See Canvas for the due date
+**Code Submission:** This assignment must be linked off of your class web page (index.html) as Assignment #4 and you must submit all original code (html, css, etc.) that you write to Canvas 
+For this assignment you are to create a web page that uses Bootstrap for a 2 column layout with a top heading. Here is a [example](http://www.jbryan2.create.stedwards.edu/cosc2328/bsSample.html) bootstrap page. HTML code for the example [here](http://www.jbryan2.create.stedwards.edu/cosc2328/bsSample.txt). CSS [here](http://www.jbryan2.create.stedwards.edu/cosc2328/css/bsSample.css). You MUST use a layout that you did not use on your homepage. If you used a two column layout with the menu on the left, reverse the layout so you have the opposite look (ie right menu to left menu) This page should have a completely different look from your other pages (different color scheme and layout.) It must use Bootstrap for column layouts. Your page must contain an image somewhere that is appropriate for the content of your page. The page content can be about any topic you are interested in, for example, golf courses in central Texas, or golf tips, or golf vacations, or golf instructions, or golf equipment... or whatever subject, hobby, or pursuit you find interesting.
+
+Be sure that you make the page as size relative as possible, so that if the user resizes the page, it will still look right. Be sure that you test the page on different browsers (e.g., IE, Chrome, Firefox). Documentation on bootstrap fluid grid system and fixed grid systems can be found [here](https://www.w3schools.com/bootstrap/bootstrap_grid_system.asp).
+
+This page should be linked off of your home page, with the link: 'Assignment #4'. **If no link is found on your page you will receive a zero for the assignment.**
+
+In addition to linking your assignment off of your web page, turn in your files to Canvas for Assignment #4. Make sure you turn in a text file. Do NOT submit a Word file or RTF file or any type of file other than a text file. **Any file type other than a text file will result in a zero for the assignment.**
