@@ -1,0 +1,55 @@
+* { box-sizing: border-box; }
+
+
+body {
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: 0% 5%;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background: #ffffff;
+}
+
+#myBody {
+    background: lightblue;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.page-header {
+    color: #000000;
+    border-radius: 10px;
+    background: #ffff99;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.buttonForm {
+    padding: 40%;
+    border-radius: 10px;
+    background: #000000;
+
+}
+
+.mytext {
+    width: 600px;
+}
+
+.blogEntry {
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background: #ffffff;
+    max-width: 100%;
+    padding: 20px;
+    font-size: 11;
+    box-shadow: lightgray 3px 3px;
+}
+
+.footer{
+         margin-top: 20%;
+         font-size:.8em;
+	     border-top: 1px solid blue;
+	     padding-top: 5px;
+}
