@@ -45,7 +45,7 @@ See the name phone number example [here](http://www.jbryan2.create.stedwards.edu
 
 ### **Hint #4 - Delete the Blog file**
 
-```
+```php
 
 // ========================================
 // clearAll()
@@ -67,7 +67,7 @@ function clearAll() {
                 
 ### **Hint #5 - Get the current date time**
 
-```
+```php
 
     // Get the current time
     date_default_timezone_set("America/Chicago");
