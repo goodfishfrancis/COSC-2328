@@ -8,7 +8,7 @@ Be sure your blog page is linked on your cosc 2328 home page as 'assignment #5'.
 
 Be sure that your blog page validates for html5.
 
-###**Your SINGLE (1 file only) php script must meet the following requirements to receive full credit**:
+### **Your SINGLE (1 file only) php script must meet the following requirements to receive full credit**:
 1. An appropriate title must appear on the page document and on the page itself.
 2. The page must use a style sheet and have a nice, neat, clean, web appropriate style. Using Bootsrap is recommended but not required.
 3. The page must validate for html5 (both form and resulting submission of data pages)
@@ -17,8 +17,8 @@ Be sure that your blog page validates for html5.
 5. The script must handle BOTH original page load and submission of data and it must check for empty data. Do not store an entry if its empty. You may only have 1 single php file (script) that handles ALL of the pages that you are displaying.
 6. **UPLOAD to Canvas** under assignment 5 a single text file, asg5.txt that contains your php script, including any additional scripts of functions that your original script is using. Make sure you document any methods(functions) that you write. Make sure you upload all of your php code (possibly 2 or more scripts) as a single text file with the name of the file ending in .txt
 7. Do NOT turn in your files in a zip file. Do NOT turn in your files in a format other than text. If I receive a .docx, .rtf or .pages file with your PHP or CSS source code you will receive a zero. No exceptions.
-##**Hints**:
-###**Hint #1 - You will need a blog entry form**
+## **Hints**:
+### **Hint #1 - You will need a blog entry form**
 
 ```
 
@@ -33,17 +33,18 @@ Be sure that your blog page validates for html5.
 </form>
 
 ```
-###__Hint #2 - You will need a form for the add and remove buttons__
+### **Hint #2 - You will need a form for the add and remove buttons**
 [Here](http://www.jbryan2.create.stedwards.edu/cosc2328/sampleForms4.php) is an example of how to handle the 'add' and 'remove' blog buttons
 
 [Here](http://www.jbryan2.create.stedwards.edu/cosc2328/sampleForms4.php.txt)is the text version of the php file above
 
-###**Hint #3 - You will need to know how to open, write and read from a file**
+### **Hint #3 - You will need to know how to open, write and read from a file**
 See the name phone number example [here](http://www.jbryan2.create.stedwards.edu/cosc2328/phpFileSample.php)
 
 [Here](http://www.jbryan2.create.stedwards.edu/cosc2328/phpFileSample.txt) is the text version of the name phone example above
 
-###**Hint #4 - Delete the Blog file**
+### **Hint #4 - Delete the Blog file**
+
 ```
 
 // ========================================
@@ -64,7 +65,8 @@ function clearAll() {
 
 ```
                 
-###**Hint #5 - Get the current date time**
+### **Hint #5 - Get the current date time**
+
 ```
 
     // Get the current time
