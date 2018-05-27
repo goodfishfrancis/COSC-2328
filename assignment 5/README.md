@@ -33,7 +33,7 @@ Be sure that your blog page validates for html5.
 </form>
 
 ```
-###**Hint #2 - You will need a form for the add and remove buttons**
+###__Hint #2 - You will need a form for the add and remove buttons__
 [Here](http://www.jbryan2.create.stedwards.edu/cosc2328/sampleForms4.php) is an example of how to handle the 'add' and 'remove' blog buttons
 
 [Here](http://www.jbryan2.create.stedwards.edu/cosc2328/sampleForms4.php.txt)is the text version of the php file above
