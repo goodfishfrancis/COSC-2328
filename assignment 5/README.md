@@ -20,7 +20,7 @@ Be sure that your blog page validates for html5.
 ## **Hints**:
 ### **Hint #1 - You will need a blog entry form**
 
-```
+```php
 
 <form action='blog.php' method='post'>
 
