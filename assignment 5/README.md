@@ -1,4 +1,4 @@
-#COSC 2328
+# COSC 2328
 
 Web Programming Assignment #5
 **Due Date:** See Canvas; Link off your class web page on Reclaim and posted to Canvas 
