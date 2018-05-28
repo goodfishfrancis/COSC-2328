@@ -15,6 +15,6 @@ For this assginement you are to modify the following page: [Javascript Validatio
 * Update your class web page with a link to your asg8 page. If no link is found you will receive a zero. No exceptions.
 * Submit ALL of your files to Canvas for assignment 8
 
-The html file is located [here](http://www.jbryan2.create.stedwards.edu/cosc2328/asg8Example.html.txt) 
-The css file is located [here](http://www.jbryan2.create.stedwards.edu/cosc2328/css/asg8Example.css) 
-The js file is located [here](http://www.jbryan2.create.stedwards.edu/cosc2328/js/asg8Example.js)
+The html file is located [here](http://www.jbryan2.create.stedwards.edu/cosc2328/asg8Example.html.txt) \n
+The css file is located [here](http://www.jbryan2.create.stedwards.edu/cosc2328/css/asg8Example.css) \n
+The js file is located [here](http://www.jbryan2.create.stedwards.edu/cosc2328/js/asg8Example.js) \n
