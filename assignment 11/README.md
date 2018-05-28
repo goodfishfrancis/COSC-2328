@@ -23,16 +23,17 @@
 13. Investigate the built-in PHP function necessary to display money with dollars and cents (e.g. $3.00 instead of $3). Points will be deducted if money does not display properly.  
 
 **Note:** You will need to write SQL queries in your PHP code to retrieve the data you need for the three web pages. For asg11Login.php, the PHP code to create your query should look something like this: 
-
 ```php
-
 $sql = "select userName, userPassword from users where userName = '" . $userName . "'"; 
+```
 For asg11Music.php, the PHP code to query the list of songs should look something like this: 
-$sql = "select songId, artist, songName from songs"; 
-For asg11CheckOut.php, the PHP code to query the price of songs should look something like this: 
-$sql = "select artist, songName, price from songs where songId = '" . $song . "'";   
-
 ```php
+$sql = "select songId, artist, songName from songs"; 
+```
+For asg11CheckOut.php, the PHP code to query the price of songs should look something like this: 
+```php
+$sql = "select artist, songName, price from songs where songId = '" . $song . "'";   
+```
 
 ### To turn in your assignment
 Rename your .php files to .txt and submit ALL files to Canvas
