@@ -12,7 +12,7 @@ See below for complete description.
 
 * asg10CheckOut.php - You will need to write this entire file. Verify that the username and password are correct by checking the session variable for 'loggedIn' and make sure it is set to 1. If not, tell the user he/she is not logged in and give the user a link to the asg10Login.php file.
 
-If the user is logged in, check the $_POST variable for the selected song and calculate the price. Display the selected song name and the cost.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If the user is logged in, check the $_POST variable for the selected song and calculate the price. Display the selected song name and the cost.
 
 If the song selected is the Lady Gaga song, the cost is $1.00. If the song selected is the Taylor Swift song, the cost is $2.00. If the song selected is the Asleep At The Wheel song, the cost is $3.00 and if the selected song is the Groupo Fantasma song it is $4.00. Calculate a 10% tax and show the initial cost, tax and total.
 
