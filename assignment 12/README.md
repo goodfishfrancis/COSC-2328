@@ -5,7 +5,7 @@
 ### Instructions
 For this assignment you are to create a web page with a Google Map. The map location should have a pin signifying a location of some significance to you. For example, if you like movies, perhaps the location is for your favorite movie theatre. If you like to play golf, perhaps the location is for your favorite golf course. You should also provide a text description of the location. Describe the location.
 
-Below are several links that will help you with this assignment.
+**Below are several links that will help you with this assignment.**
 
 [Here](https://developers.google.com/maps/documentation/javascript/tutorial) is a link to a Google Maps API tutorial  
 [Here](http://www.jbryan2.create.stedwards.edu/cosc2328/gmApi.html) is a link to an example web page  
