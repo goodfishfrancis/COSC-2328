@@ -2,7 +2,7 @@
 ### **Web Programming Assignment #11**
 **Due Date:** See Canvas; Post to your index.html web page and uploaded all fines to Canvas
 
-**Working version of assignment #11:** http://jbryan2.create.stedwards.edu/cosc2328/asg11Login.php
+**Working version of assignment #11:** http://jbryan2.create.stedwards.edu/cosc2328/asg11Login.php  
 **PHP and MySQL help for this assignment:** http://jbryan2.create.stedwards.edu/mysqlHowTo.html
 
 **Overview:** For this assignment you will modify your Assignment 10 files to retrieve the username and password and the list of songs from a MySQL Database. You will also use hash values of the password instead of clear text passwords.
