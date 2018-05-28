@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<title>Asg 9: JQUERY Data Tables</title>
+		<meta name="author" content="Alexander Solinger">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="http://cdn.datatables.net/1.10.4/css/jquery.dataTables.css">
+        <link rel="stylesheet" type="text/css" href=./css/asg9.css>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+		<script src="http://cdn.datatables.net/1.10.4/js/jquery.dataTables.min.js"></script>
+
+		<script type="text/javascript" class="init">
+		   $(document).ready(function() {
+			   $('#example').DataTable();
+		   });
+		</script>
+
+	</head>
+
+	<body>
+		<div class="container">
+		    <div class="row">
+		      <div class="col-xs-10 col-xs-offset-1">
+			     <h1 align="center"  class="color-green">Movie Showings in Austin, Tx
+			        <li style="list-style-type: none">Monday Oct 16, 2017</li>
+			     </h1>
+			  </div>
+			</div>
+
+			<div class="row">
+				<div class="col-xs-10 col-xs-offset-1">
+
+                    <table id="example" class="display" cellspacing="0" width="100%">
+                        <thead>
+                            <tr>
+                                <th>Theatre Name</th>
+                                <th>Movie Title</th>
+                                <th>Movie Start Time</th>
+                            </tr>
+                        </thead>
+                        <tfoot>
+                            <tr>
+                                <th>Theatre Name</th>
+                                <th>Movie Title</th>
+                                <th>Movie Start Time</th>
+                            </tr>
+
+                        </tfoot>
+                        <tbody>
+                            <tr>
+                                <td>iPic Theaters at The Domain</td>
+                                <td>Happy Death Day
+                                    <li style="list-style-type:none" class="text-muted small">
+                                       Jessica Rothe, Israel Broussard
+                                    </li>
+                                    <li style="list-style-type:none" class="text-muted small">
+                                        R
+                                    </li>
+                                </td>
+                                <td>11:00am 1:45pm 4:45pm 7:30pm 10:45pm</td>
+                            </tr>
+                            <tr>
+                                <td>iPic Theaters at The Domain</td>
+                                <td>Professor Marston & The Wonder Women
+                                    <li style="list-style-type:none" class="text-muted small">
+                                        Luke Evans, Rebecca Hall
+                                    </li>
+                                    <li style="list-style-type:none" class="text-muted small">
+                                        R
+                                    </li>
+                                </td>
+                                <td>12:45pm 4:00pm 7:15pm 10:15pm</td>
+                            </tr>
+                            <tr>
+                                <td>iPic Theaters at The Domain</td>
+                                <td>The Foreigner
+                                    <li style="list-style-type:none" class="text-muted small">
+                                        Jackie Chan, Pierce Bosnan
+                                    </li>
+                                    <li style="list-style-type:none" class="text-muted small">
+                                        R
+                                    </li>
+                                </td>
+                                <td>12:15pm 3:30pm 7:00pm 10:00pm</td>
+                            </tr>
+                            <tr>
+                                <td>iPic Theaters at The Domain</td>
+                                <td>It
+                                    <li style="list-style-type:none" class="text-muted small">
+                                        Bill Skarsgard, Jaeden Lieberher
+                                    </li>
+                                    <li style="list-style-type:none" class="text-muted small">
+                                        R
+                                    </li>
+                                </td>
+                                <td>11:30am 2:45pm 6:15pm 9:45pm</td>
+                            </tr>
+                            <tr>
+                                <td>iPic Theaters at The Domain</td>
+                                <td>Blade Runner 2049
+                                    <li style="list-style-type:none" class="text-muted small">
+                                        Ryan Gosling, Harrison Ford
+                                    </li>
+                                    <li style="list-style-type:none" class="text-muted small">
+                                        R
+                                    </li>
+                                </td>
+                                <td>10:30am 2:30pm 6:30pm 10:30pm</td>
+                            </tr>
+                            <tr>
+                                <td>iPic Theaters at The Domain</td>
+                                <td>Kingsman: The Golden Circle
+                                    <li style="list-style-type:none" class="text-muted small">
+                                        Colin Firth, Julianne Moore
+                                    </li>
+                                    <li style="list-style-type:none" class="text-muted small">
+                                        R
+                                    </li>
+                                </td>
+                                <td>10:45am 2:15pm 6:00pm 9:30pm</td>
+                            </tr>
+                            <tr>
+                                <td>iPic Theaters at The Domain</td>
+                                <td>American Made
+                                    <li style="list-style-type:none" class="text-muted small">
+                                        Tom Cruise, Domhnall Gleeson
+                                    </li>
+                                    <li style="list-style-type:none" class="text-muted small">
+                                        R
+                                    </li>
+                                </td>
+                                <td>1:15pm 4:30pm 7:45pm 11:00pm</td>
+                            </tr>
+                            <tr>
+                                <td>iPic Theaters at The Domain</td>
+                                <td>The Mountain Between Us
+                                    <li style="list-style-type:none" class="text-muted small">
+                                        Idris Elba, Kate Winslet
+                                    </li>
+                                    <li style="list-style-type:none" class="text-muted small">
+                                        PG-13
+                                    </li>
+                                </td>
+                                <td>11:45am 3:15pm 6:45pm 9:50pm</td>
+                            </tr>
+                            <tr>
+                                <td>Cinemark Movies 8</td>
+                                <td>Annabelle: Creation
+                                    <li style="list-style-type:none" class="text-muted small">
+                                        Stephanie Sigman, Talitha Bateman
+                                    </li>
+                                    <li style="list-style-type:none" class="text-muted small">
+                                        R
+                                    </li>
+                                </td>
+                                <td>11:00am 1:30pm 4:30pm 7:30pm 10:05pm</td>
+                            </tr>
+                            <tr>
+                                <td>Cinemark Movies 8</td>
+                                <td>Despicable Me 3
+                                    <li style="list-style-type:none" class="text-muted small">
+                                        Steve Carell, Kristen Wiig
+                                    </li>
+                                    <li style="list-style-type:none" class="text-muted small">
+                                        PG
+                                    </li>
+                                </td>
+                                <td>12:45pm 3:15pm 6:20pm 8:45pm</td>
+                            </tr>
+                            <tr>
+                                <td>Cinemark Movies 8</td>
+                                <td>Spider-Man: Homecoming
+                                    <li style="list-style-type:none" class="text-muted small">
+                                        Tom Holland (II), Michael Keaton
+                                    </li>
+                                    <li style="list-style-type:none" class="text-muted small">
+                                        PG-13
+                                    </li>
+                                </td>
+                                <td>1:00pm 4:00pm 7:15pm 9:35pm</td>
+                            </tr>
+
+                            <tr>
+                                <td>Cinemark Movies 8</td>
+                                <td>Dunkirk
+                                    <li style="list-style-type:none" class="text-muted small">
+                                        Fionn Whitehead, Tom Glynn-Carney
+                                    </li>
+                                    <li style="list-style-type:none" class="text-muted small">
+                                        PG-13
+                                    </li>
+                                </td>
+                                <td>11:30am 5:15pm 10:15pm</td>
+                            </tr>
+
+                            <tr>
+                                <td>Cinemark Movies 8</td>
+                                <td>The Emoji Movie
+                                    <li style="list-style-type:none" class="text-muted small">
+                                        T.J. Miller, James Corden
+                                    </li>
+                                    <li style="list-style-type:none" class="text-muted small">
+                                        PG
+                                    </li>
+                                </td>
+                                <td>11:15am 2:00pm 5:00pm 7:45pm 9:55pm</td>
+                            </tr>
+
+                            <tr>
+                                <td>Cinemark Movies 8</td>
+                                <td>Wonder Woman
+                                    <li style="list-style-type:none" class="text-muted small">
+                                        Gal Gadot, Chris Pine
+                                    </li>
+                                    <li style="list-style-type:none" class="text-muted small">
+                                        PG-13
+                                    </li>
+                                </td>
+                                <td>12:15pm 6:40pm</td>
+                            </tr>
+
+                            <tr>
+                                <td>Alamo Drafthouse South Lamar</td>
+                                <td>Wasted! The Story of Food Waste
+                                    <li style="list-style-type:none" class="text-muted small">
+                                        Anthony Bourdain, Christopher Collins
+                                    </li>
+                                    <li style="list-style-type:none" class="text-muted small">
+                                        Unrated
+                                    </li>
+                                </td>
+                                <td>12:20pm 2:50pm 5:20pm 7:50pm 10:25pm</td>
+                            </tr>
+
+                            <tr>
+                                <td>Alamo Drafthouse South Lamar</td>
+                                <td>Blade Runner 2049
+                                    <li style="list-style-type:none" class="text-muted small">
+                                        Ryan Gosling, Harrison Ford
+                                    </li>
+                                    <li style="list-style-type:none" class="text-muted small">
+                                        R
+                                    </li>
+                                </td>
+                                <td>12:30pm 2:35pm 4:15pm 6:20pm 8:00pm 9:25pm</td>
+                            </tr>
+
+                            <tr>
+                                <td>Alamo Drafthouse South Lamar</td>
+                                <td>Lucky
+                                    <li style="list-style-type:none" class="text-muted small">
+                                        Harry Dean Stanton, David Lynch
+                                    </li>
+                                    <li style="list-style-type:none" class="text-muted small">
+                                        Unrated
+                                    </li>
+                                </td>
+                                <td>12:00pm 2:35pm 5:05pm 7:35pm 10:05pm</td>
+                            </tr>
+
+                            <tr>
+                                <td>Alamo Drafthouse South Lamar</td>
+                                <td>The Florida Project
+                                    <li style="list-style-type:none" class="text-muted small">
+                                        Willem Dafoe, Brooklynn Prince
+                                    </li>
+                                    <li style="list-style-type:none" class="text-muted small">
+                                        R
+                                    </li>
+                                </td>
+                                <td>12:50pm 4:00pm 7:00pm 10:10pm</td>
+                            </tr>
+
+                            <tr>
+                                <td>Alamo Drafthouse South Lamar</td>
+                                <td>Battle of The Sexes
+                                    <li style="list-style-type:none" class="text-muted small">
+                                        Emma Stone, Steve Carell
+                                    </li>
+                                    <li style="list-style-type:none" class="text-muted small">
+                                        PG-13
+                                    </li>
+                                </td>
+                                <td>12:00pm 3:05pm 6:15pm 9:30pm</td>
+                            </tr>
+
+                            <tr>
+                                <td>Alamo Drafthouse South Lamar</td>
+                                <td>American Made
+                                    <li style="list-style-type:none" class="text-muted small">
+                                        Tom Cruise, Domhnall Gleeson
+                                    </li>
+                                    <li style="list-style-type:none" class="text-muted small">
+                                        R
+                                    </li>
+                                </td>
+                                <td>12:15pm 3:20pm 6:25pm 10:05pm</td>
+                            </tr>
+
+                         </tbody>
+                    </table>
+				</div>
+			</div> <!-- /row -->
+
+			<div class="row">
+			    <div class="col-xs-12">
+			        <p class='footer'>
+                        St. Edward&apos;s University .:. cosc 2328 - web programming .:. fall 2017
+                    </p>
+                </div>
+			</div>
+
+		</div> <!-- /container -->
+	</body>
+</html>
