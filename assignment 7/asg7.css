@@ -1,0 +1,65 @@
+* { box-sizing: border-box; }
+
+.myBody {
+    margin:  0 5%;
+	font-family: verdana, Georgia, arial, helvetica, sans-serif;
+	color: #333333;  /* text color */
+	background: #f7eb9c; /* background color */
+}
+
+.page-header {
+    color: #ffffff;
+    border-radius: 5px;
+    background: #3392ff;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.myHeader {
+    padding-top: 20px;
+}
+
+/* style for headers */
+h2, h4, h5 {
+    border-radius: 5px;
+    background: #99ccff;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+#photoHeader {
+    border-radius: 5px;
+    background: #3392ff;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+
+/* Use for blocks of information */
+.infoCard {
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background: #ffffff;
+    max-width: 100%;
+    padding: 20px;
+}
+
+.footer{
+         font-size:.8em;
+	     margin:5% 1% 1% 1%;
+	     border-top: 1px solid blue;
+         padding:1%;
+}
+
+/* use for images */
+.image {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 10px;
+}
