@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="./css/gmApiAsg.css">
+</head>
+
+<body>
+
+<h1>Walnut Creek Metropolitan Park API Page</h1>
+    <div id="map"></div>
+    <br />
+    <div id="mapText">
+        <h4>Walnut Creek Metropolitan Park</h4>
+            <p> Walnut Creek Park is a large metropolitan park area that has playgrounds, picnic areas, community swimming pools and
+                and much more. The surounding area contains 11+ miles of 
+                paved and unpaved biking and hiking trails with offleash
+                sections for dogs.
+            </p>
+        <h4>Amenities</h4>
+            <ul style='list-style-type:disc'>
+                <li>Barbeque Pits - 6</li>
+                <li>Basketball Courts - 2</li>
+                <li>Off-Leash Dog Areas - 1</li>
+                <li>Picnic Shelter - 1</li>
+                <li>Picnic Tables - 26</li>
+                <li>Playgrounds - 1</li>
+                <li>Reservable Facilities - 1</li>
+                <li>Softball Fields - 5</li>
+                <li>Swimming Pools - 1</li>
+                <li>Trail Miles - 15</li>
+                <li>Vollyball Courts -1</li>
+            </ul>
+            
+
+    </div>
+    <script>
+
+        <!-- Create a map -->
+        var map;
+
+        <!-- Latitude and longtitude for Walnut Creek Metropolitan Park -->
+        var myLatLng = {lat: 30.4001631, lng: -97.68025269999998};
+        function initMap() {
+            map = new google.maps.Map(document.getElementById('map'), {
+            center: myLatLng,
+            zoom: 12
+            });
+
+        var marker = new google.maps.Marker({
+            position: myLatLng,
+            map: map,
+            title: 'WCM Park'
+        });
+
+
+      }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBdLbIKfOqZpLFI9-X76P81ADhY5nxFNps&callback=initMap"
+    async defer></script>
+
+</body>
+</html>
