@@ -11,4 +11,4 @@ For this assignment you will use HTML5 and SVG graphics to create a web page wit
 * Add a link for this assignment "In Class Graphics Assignment" to your main index.html file. If this link is missing or if you do not have an index.html file you will receive a zero for the assignment. No exceptions.
 
 ![GitHub Logo](images/graphicsFun.png)
-Format: ![Alt Text](url)
+
