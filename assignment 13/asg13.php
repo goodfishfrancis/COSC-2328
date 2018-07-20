@@ -1,8 +1,8 @@
 <?php
 include('../adodb519/adodb5/adodb.inc.php');
-require 'phpAsg12Helper.php';
+require 'phpAsg13Helper.php';
 
-printBootstrapTop('./css/asg12.css', 'Assignment 12: Ajax Example');
+printBootstrapTop('./css/asg13.css', 'Assignment 13: Ajax Example');
 
 printTop();
 
