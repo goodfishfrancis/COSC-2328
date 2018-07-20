@@ -1,0 +1,62 @@
+#choices { 
+    width: 300px; 
+} 
+
+button { 
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+} 
+
+body {
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: 0% 5%;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background: #808000;
+}
+
+.myBody {
+    background: lightblue;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.page-header {
+    color: #000000;
+    border-radius: 10px;
+    background: #ffff99;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.selectBox {
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border-color: black;
+    background: #ffffff;
+    max-width: 100%;
+    padding: 20px;
+}
+
+/* style for headers */
+h2, h3, h4, h5 {
+    border-radius: 10px;
+    border-color: black;
+    background: #ffffff;
+    color: #ffffff;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+/* Use for blocks of information */
+.infoCard {
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background: #ffffff;
+    max-width: 100%;
+    padding: 20px;
+}
