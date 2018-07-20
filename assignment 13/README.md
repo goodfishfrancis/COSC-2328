@@ -14,7 +14,7 @@ You can modify start with this file [here](http://www.jbryan2.create.stedwards.e
 - You will create three tables in your instance of MySQL for this assignment. You can use your existing cosc2328 database and your existing phpUser. Create the tables: restaurants, theatres, entertainment. Each table will have two columns, id and description. All id columns should be data type of int and the other column should be varchar 40.
 Use phpMyAdmin to create your tables and insert rows in each table.
 
-You must insert at least four rows in each table using PHPMyAdmin.
+   You must insert at least four rows in each table using PHPMyAdmin.
 
 - You will need a PHP file that connects to the database and selects data from the appropriate table, depending on which item was selected in the listbox. Notice that the javascript file sends a GET with the selection. The selection should correspond to your table name in your database. Your PHP file will need to determine which item was selected, formulate a query for the appropriate table, execute the query and print results back to the web page accordingly.
 Assume you have submitted your selection (i.e., restaurant, theatre or entertainment) to your php file. You will need to forumlate a sql query accordingly to select from the database. For example, your restaurants table should have an id column and a description column. Your query would look as follows: "select description from restaurants". That will return all of the restaurants. In your while loop that processes return results, print the restaurants back to your web page.
