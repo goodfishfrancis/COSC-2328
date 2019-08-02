@@ -1,0 +1,91 @@
+/* Generic Selectors */
+
+* { box-sizing: border-box; }
+
+body {
+	margin:  0 5%;
+	font-family: verdana, Georgia, arial, helvetica, sans-serif;
+	font-size: 1em;  /* default size */
+	color: #333333;  /* text color */
+	background: lightblue; /* background color */
+
+}
+
+/* style for headers */
+h3, h4, h5 {
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
+/* use for images */
+.image {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+#imgHeader {
+    padding: 20px;
+    color: #ffffff;
+    border-radius: 10px;
+    background: #002255;
+    text-align: center;
+}
+
+
+
+.heading {
+      border: 5px #99ffff;
+      border-radius: 10px;
+      background:#002255;
+      color: white;
+      margin: 1% 0% 1% 0%;
+      padding: 2%;
+      text-align:center;
+}
+
+.content {
+           border: 5px #bbffbb;
+           border-radius: 10px;
+           background: #bbffbb;
+           color:black;
+           margin: 1% 0% 1% 0%;
+           padding: 2%;
+           overflow:auto;
+}
+
+/* Use for blocks of information */
+.infoCard {
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background: #ffffff;
+    box-shadow: 5px 5px solid lightblue;
+    max-width: 75%;
+    padding: 20px;
+}
+
+.footer{
+         font-size:.8em;
+	     margin:5% 1% 1% 1%;
+	     border-top: 1px solid green;
+         padding:1%;
+
+}
+/* now change anchor tag colors */
+a:link {
+         color: #004f00;
+    }
+a:visited {
+            color:#720000;
+          }
+a:hover {
+          background: #bbffbb;
+          color:#333000;
+        }
+a:active {
+          color:white;
+
+}
